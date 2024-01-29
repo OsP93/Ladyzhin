@@ -190,9 +190,13 @@ h6 {
 }
 
 .rightblock-header-textblock {
-    padding-right: 10%;
+    padding-left: 10%;
     text-align: right;
     color: #2C6F0E;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .rightblock-header-textblock h2 {
@@ -203,6 +207,15 @@ h6 {
 .rightblock-header-textblock h1 {
     text-transform: uppercase;
     font-size: 6.5vw;
+}
+
+.header-emblem {
+    width: 220px;
+    height: 220px;
+    border: solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .leftblock {

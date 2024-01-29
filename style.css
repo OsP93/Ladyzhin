@@ -102,12 +102,12 @@ h6 {
 
 .navigation {
     position: absolute;
-    left: -21.2%;
+    left: -23.8%;
     z-index: 200;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
     border-right: solid 1em #2C6F0E;
-    width: 22%;
+    width: 25%;
     height: 100%;
     max-height: 56.25vw;
     padding: 15px;
@@ -558,4 +558,17 @@ p {
 .bold {
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+/* media */
+@media screen and (max-width: 900px) {
+    .invest-item--body img {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .invest-item--description {
+        width: 100%;
+        padding: 3%;
+    }
 }

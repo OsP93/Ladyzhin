@@ -76,7 +76,6 @@ ul li {
 
 img {
     vertical-align: top
-    
 }
 
 h1,
@@ -219,7 +218,12 @@ h6 {
     justify-content: center;
 }
 
-.header-emblem img {
+.header-emblem a {
+    width: 100%;
+    display: contents;
+}
+
+.header-emblem--img {
     width: auto;
     height: 100%;
 }
